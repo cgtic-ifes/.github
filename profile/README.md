@@ -62,3 +62,26 @@ Os códigos-fonte, sistemas e artefatos disponibilizados nesta organização sã
    * Inclua obrigatoriamente um arquivo **`README.md`** claro, informando a instituição responsável, o objetivo da solução, instruções de instalação e como outras universidades ou estudantes podem contribuir e solicitar acesso;
    * Inclua obrigatoriamente um arquivo **`LICENSE`**, descrevendo explicitamente a licença de uso, modificação e distribuição aplicável ao projeto;
    * Adote preferencialmente o padrão **[SemVer](https://semver.org/)** (`MAJOR.MINOR.PATCH`) na publicação de *releases* e *tags*, garantindo previsibilidade na evolução do software.
+
+---
+
+## 📦 Catálogo de Soluções Privadas da Rede
+
+Como repositórios privados não ficam visíveis publicamente na vitrine da organização, listamos abaixo as ferramentas já desenvolvidas e disponibilizadas pelas instituições para consulta e eventual solicitação de acesso.
+
+### Universidade Federal do Recôncavo da Bahia (UFRB)
+
+* **[ProvaFácil (`cgtic-ifes/gabarito`)](https://github.com/cgtic-ifes/gabarito)** *(Repositório Privado)*
+  * **O que faz:** Sistema web e API REST para correção automática de provas de múltipla escolha por meio de Leitura Óptica de Marcas (OMR) com visão computacional (OpenCV). Permite o cadastro de avaliações, turmas e gabaritos com pesos, geração de folhas de resposta personalizadas em PDF com QR Code individual e correção instantânea via foto (câmera do celular) ou digitalização (PDF/scanner), além de relatórios estatísticos e exportação em CSV.
+  * **Tecnologias principais:** Python (FastAPI), OpenCV, ReportLab, SQLite/PostgreSQL e Docker.
+  * **Como solicitar acesso:** Entrar em contato com a equipe de TIC da UFRB.
+
+* **[Tela — Chromecast via Navegador (`cgtic-ifes/tela`)](https://github.com/cgtic-ifes/tela)** *(Repositório Privado)*
+  * **O que faz:** Sistema de compartilhamento de tela e áudio com baixíssima latência para Smart TVs ou projetores de salas de aula, funcionando inteiramente na rede institucional local sem depender de hardware proprietário (como Chromecast). Conta com painel emissor para o professor e modo receptor (*Kiosk*) para a sala de aula via navegador.
+  * **Tecnologias principais:** Node.js, WebRTC, PeerJS, HTML/JavaScript e Docker.
+  * **Como solicitar acesso:** Entrar em contato com a equipe de TIC da UFRB.
+
+* **[Importa XML Lattes (`cgtic-ifes/ImportaXMLLattes`)](https://github.com/cgtic-ifes/ImportaXMLLattes)** *(Repositório Privado)*
+  * **O que faz:** Utilitário de linha de comando e contêiner para automação de consulta, download em lote e extração de currículos da Plataforma Lattes (CNPq) em formato XML estruturado (via ID Lattes ou CPF), com suporte nativo a proxy de saída institucional para atendimento à *whitelist* de IP do Web Service do CNPq.
+  * **Tecnologias principais:** Shell Script (Bash), `curl`, `xmllint` e Docker (Alpine Linux).
+  * **Como solicitar acesso:** Entrar em contato com a equipe de TIC da UFRB.
