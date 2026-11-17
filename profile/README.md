@@ -42,5 +42,9 @@ Cada instituição que depositar projetos nesta organização **mantém total au
 2. **Criação e depósito de projetos:** A criação e o depósito inicial de repositórios da instituição devem ser realizados pelo **Gestor de TIC da Universidade** (caso ainda não possua acesso, basta solicitar o vínculo à coordenação do CGTIC).
 3. **Delegação às equipes:** Após criar o repositório, o próprio Gestor de TIC poderá delegar permissões especiais de administração, manutenção ou escrita aos membros de suas equipes técnicas para conduzirem o desenvolvimento no dia a dia.
 4. **Documente e licencie bem seu repositório:** Ao publicar um projeto, inclua obrigatoriamente:
+
+### 💡 Por que utilizar este espaço no GitHub?
+
+O GitHub foi adotado por ser uma plataforma amplamente consolidada na comunidade global de desenvolvimento, oferecendo infraestrutura gratuita, controle de versão distribuído, rastreabilidade de alterações e ferramentas nativas para revisão de código, gestão de tarefas e documentação. Naturalmente, **nada impede que as IFES utilizem outras plataformas, repositórios institucionais ou meios próprios para cooperar** — esta organização surge como **mais uma alternativa prática e acessível para fomentar a integração, dar visibilidade às soluções da rede e facilitar a colaboração** entre as equipes de TIC das universidades federais.
    * Um arquivo **`README.md`** claro, informando a instituição responsável, o objetivo da solução, instruções de instalação e como outras universidades podem contribuir ou solicitar acesso;
    * Um arquivo **`LICENSE`**, descrevendo explicitamente a licença de uso, modificação e distribuição aplicável ao projeto.
