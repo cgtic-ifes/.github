@@ -58,10 +58,11 @@ Os códigos-fonte, sistemas e artefatos disponibilizados nesta organização sã
 1. **Explore os projetos:** Navegue pela aba [Repositories](https://github.com/orgs/cgtic-ifes/repositories) para conhecer as soluções já compartilhadas pela rede.
 2. **Criação e depósito de projetos:** A criação e o depósito inicial de repositórios da instituição devem ser realizados pelo **Gestor de TIC da Universidade** (caso ainda não possua acesso, basta solicitar o vínculo à coordenação do CGTIC).
 3. **Delegação às equipes:** Após criar o repositório, o próprio Gestor de TIC poderá delegar permissões especiais de administração, manutenção ou escrita aos membros de suas equipes técnicas para conduzirem o desenvolvimento no dia a dia.
-4. **Documente, licencie e versione bem seu repositório:** Ao publicar e evoluir um projeto, observe as seguintes recomendações:
-   * Inclua obrigatoriamente um arquivo **`README.md`** claro, informando a instituição responsável, o objetivo da solução, instruções de instalação e como outras universidades ou estudantes podem contribuir e solicitar acesso;
-   * Inclua obrigatoriamente um arquivo **`LICENSE`**, descrevendo explicitamente a licença de uso, modificação e distribuição aplicável ao projeto;
-   * Adote preferencialmente o padrão **[SemVer](https://semver.org/)** (`MAJOR.MINOR.PATCH`) na publicação de *releases* e *tags*, garantindo previsibilidade na evolução do software.
+4. **Documente, licencie, versione e automatize bem seu repositório:** Ao publicar e evoluir um projeto, observe as seguintes recomendações:
+   * **Documentação (`README.md`):** Inclua obrigatoriamente um arquivo `README.md` claro, informando a instituição responsável, o objetivo da solução, instruções de instalação e como outras universidades ou estudantes podem contribuir e solicitar acesso;
+   * **Licenciamento (`LICENSE`):** Inclua obrigatoriamente um arquivo `LICENSE`, descrevendo explicitamente a licença de uso, modificação e distribuição aplicável ao projeto;
+   * **Versionamento Semântico ([SemVer](https://semver.org/)):** Adote preferencialmente o padrão `MAJOR.MINOR.PATCH` na publicação de *releases* e *tags*, garantindo previsibilidade na evolução do software;
+   * **Integração Contínua e Segurança (GitHub Actions / CI):** Incentivamos fortemente a adoção de *pipelines* automatizados de *build* e testes (via **GitHub Actions**), com especial atenção às **verificações automatizadas de segurança** — como análise estática de código (SAST), auditoria de vulnerabilidades em dependências (SCA/Dependabot) e varredura de segredos (*secret scanning*) — garantindo maior confiabilidade e proteção às contribuições recebidas da comunidade.
 
 ---
 
