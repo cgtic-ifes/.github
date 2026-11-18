@@ -64,6 +64,16 @@ Os códigos-fonte, sistemas e artefatos disponibilizados nesta organização sã
    * **Versionamento Semântico ([SemVer](https://semver.org/)):** Adote preferencialmente o padrão `MAJOR.MINOR.PATCH` na publicação de *releases* e *tags*, garantindo previsibilidade na evolução do software;
    * **Integração Contínua e Segurança (GitHub Actions / CI):** Incentivamos fortemente a adoção de *pipelines* automatizados de *build* e testes (via **GitHub Actions**), com especial atenção às **verificações automatizadas de segurança** — como análise estática de código (SAST), auditoria de vulnerabilidades em dependências (SCA/Dependabot) e varredura de segredos (*secret scanning*) — garantindo maior confiabilidade e proteção às contribuições recebidas da comunidade.
 
+### 📜 Sugestões de Licenciamento para Projetos das IFES
+
+Embora cada universidade tenha total autonomia para escolher a licença de seus repositórios, sugerimos as seguintes opções de código aberto conforme a natureza do projeto:
+
+* **Sistemas e Aplicações Completas (ex.: sistemas web, ferramentas de gestão e ensino):** Recomendamos a adoção de licenças *copyleft* fortes da família GNU, que impedem que softwares desenvolvidos com investimento público sejam apropriados, fechados e comercializados como produtos proprietários:
+  * **[GNU GPL v3 (General Public License v3.0)](https://www.gnu.org/licenses/gpl-3.0.html):** Garante que qualquer pessoa ou instituição possa usar, estudar e modificar o software livremente. Caso uma versão original ou modificada seja **distribuída** (instalada ou entregue a terceiros), o código-fonte completo deve obrigatoriamente permanecer aberto sob a mesma licença GPL v3.
+  * **[GNU AGPL v3 (Affero General Public License v3.0)](https://www.gnu.org/licenses/agpl-3.0.html):** Possui todas as garantias da GPL v3, mas fecha uma lacuna importante para aplicações web modernas: estende a obrigação de disponibilizar o código-fonte modificado também para quem apenas **hospedar o sistema em rede/nuvem (modelo SaaS)** e oferecer acesso aos usuários via navegador, mesmo sem distribuir o código ou os binários diretamente. É a opção mais recomendada quando a instituição deseja assegurar que melhorias feitas por terceiros em ambientes hospedados retornem abertas à comunidade.
+* **Bibliotecas, APIs, Integrações e Scripts Utilitários:** Recomendamos a **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)** (ou **[MIT License](https://opensource.org/licenses/MIT)**). São licenças permissivas que facilitam o reuso e a incorporação em outros sistemas institucionais sem restrições de compatibilidade entre licenças, trazendo cláusulas explícitas de isenção de garantia e responsabilidade.
+* **Documentação, Guias e Templates:** Recomendamos a **[Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**.
+
 ---
 
 ## 📦 Catálogo de Soluções Privadas da Rede
